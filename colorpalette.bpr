@@ -1,0 +1,155 @@
+<?xml version='1.0' encoding='us-ascii' ?>
+<!-- C++Builder XML Project -->
+<PROJECT>
+  <MACROS>
+    <VERSION value="BCB.06.00"/>
+    <PROJECT value="colorpalette.exe"/>
+    <OBJFILES value="colorpalette.obj main.obj"/>
+    <RESFILES value="colorpalette.res"/>
+    <IDLFILES value=""/>
+    <IDLGENFILES value=""/>
+    <DEFFILE value=""/>
+    <RESDEPEN value="$(RESFILES) main.dfm"/>
+    <LIBFILES value=""/>
+    <LIBRARIES value="bcbsmp.lib vclx.lib rtl.lib vcl.lib"/>
+    <SPARELIBS value="vcl.lib rtl.lib vclx.lib bcbsmp.lib"/>
+    <PACKAGES value="vcl.bpi rtl.bpi dbrtl.bpi adortl.bpi vcldb.bpi vclx.bpi bdertl.bpi 
+      vcldbx.bpi ibxpress.bpi dsnap.bpi cds.bpi bdecds.bpi qrpt.bpi teeui.bpi 
+      teedb.bpi tee.bpi dss.bpi teeqr.bpi visualclx.bpi visualdbclx.bpi 
+      dsnapcrba.bpi dsnapcon.bpi bcbsmp.bpi vclie.bpi xmlrtl.bpi inet.bpi 
+      inetdbbde.bpi inetdbxpress.bpi inetdb.bpi nmfast.bpi webdsnap.bpi 
+      bcbie.bpi websnap.bpi soaprtl.bpi dclocx.bpi dbexpress.bpi dbxcds.bpi 
+      indy.bpi bcb2kaxserver.bpi"/>
+    <PATHCPP value=".;"/>
+    <PATHPAS value=".;"/>
+    <PATHRC value=".;"/>
+    <PATHASM value=".;"/>
+    <DEBUGLIBPATH value="$(BCB)\lib\debug"/>
+    <RELEASELIBPATH value="$(BCB)\lib\release"/>
+    <LINKER value="ilink32"/>
+    <USERDEFINES value="_DEBUG"/>
+    <SYSDEFINES value="_RTLDLL;NO_STRICT"/>
+    <MAINSOURCE value="colorpalette.cpp"/>
+    <INCLUDEPATH value="&quot;C:\Program Files (x86)\Borland\CBuilder6\Projects&quot;;W:\tests\testcolor001;C:\sadsf950;&quot;C:\Program Files (x86)\Borland\CBuilder6\LabPacks&quot;;&quot;C:\Program Files (x86)\Borland\CBuilder6\OpenWire&quot;;$(BCB)\include;$(BCB)\include\vcl;C:\dlls;C:\fesys;C:\EControl_Designer\Sources"/>
+    <LIBPATH value="&quot;C:\Program Files (x86)\Borland\CBuilder6\Projects&quot;;W:\tests\testcolor001;C:\sadsf950;$(BCB)\Projects\Lib;&quot;C:\Program Files (x86)\Borland\CBuilder6\LabPacks&quot;;&quot;C:\Program Files (x86)\Borland\CBuilder6\OpenWire&quot;;$(BCB)\lib\obj;$(BCB)\lib;C:\fesys;C:\Components\FastScript\LibBCB6;C:\EControl_Designer\Sources"/>
+    <WARNINGS value="-w-par"/>
+    <OTHERFILES value=""/>
+  </MACROS>
+  <OPTIONS>
+    <IDLCFLAGS value="-I&quot;C:\Program Files (x86)\Borland\CBuilder6\Projects&quot; 
+      -IW:\tests\testcolor001 -IC:\sadsf950 
+      -I&quot;C:\Program Files (x86)\Borland\CBuilder6\LabPacks&quot; 
+      -I&quot;C:\Program Files (x86)\Borland\CBuilder6\OpenWire&quot; -I$(BCB)\include 
+      -I$(BCB)\include\vcl -IC:\dlls -IC:\fesys -IC:\EControl_Designer\Sources 
+      -src_suffix cpp -D_DEBUG -boa"/>
+    <CFLAG1 value="-Od -H=$(BCB)\lib\vcl60.csm -Hc -Vx -Ve -X- -r- -a8 -b- -k -y -v -vi- -c 
+      -tW -tWM"/>
+    <PFLAGS value="-$YD -$W -$O- -$A8 -v -JPHNE -M"/>
+    <RFLAGS value=""/>
+    <AFLAGS value="/mx /w2 /zd"/>
+    <LFLAGS value="-D&quot;&quot; -aa -Tpe -x -Gn -v"/>
+    <OTHERFILES value=""/>
+  </OPTIONS>
+  <LINKER>
+    <ALLOBJ value="c0w32.obj Memmgr.Lib sysinit.obj $(OBJFILES)"/>
+    <ALLRES value="$(RESFILES)"/>
+    <ALLLIB value="$(LIBFILES) $(LIBRARIES) import32.lib cp32mti.lib"/>
+    <OTHERFILES value=""/>
+  </LINKER>
+  <FILELIST>
+      <FILE FILENAME="colorpalette.res" FORMNAME="" UNITNAME="colorpalette.res" CONTAINERID="ResTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="colorpalette.cpp" FORMNAME="" UNITNAME="colorpalette" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="main.cpp" FORMNAME="Form1" UNITNAME="main" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+  </FILELIST>
+  <BUILDTOOLS>
+  </BUILDTOOLS>
+
+  <IDEOPTIONS>
+[Version Info]
+IncludeVerInfo=1
+AutoIncBuild=0
+MajorVer=1
+MinorVer=0
+Release=0
+Build=0
+Debug=0
+PreRelease=0
+Special=0
+Private=0
+DLL=0
+Locale=1046
+CodePage=1252
+
+[Version Info Keys]
+CompanyName=DSP Interactive
+FileDescription=Color Palette
+FileVersion=1.0.0.0
+InternalName=colorpalette
+LegalCopyright=Copyright (C) 2016 DSP Interactive.
+LegalTrademarks=Trademarks (TM) 2016 DSP Interactive.
+OriginalFilename=colorpalette.exe
+ProductName=Color Palette
+ProductVersion=1.0.0.0
+Comments=Color Palette Editor
+
+[Excluded Packages]
+c:\program files (x86)\borland\cbuilder6\Bin\dclite60.bpl=Borland Integrated Translation Environment
+
+[HistoryLists\hlIncludePath]
+Count=7
+Item0=C:\Program Files (x86)\Borland\CBuilder6\Projects;W:\tests\testcolor001;C:\sadsf950;C:\Program Files (x86)\Borland\CBuilder6\LabPacks;C:\Program Files (x86)\Borland\CBuilder6\OpenWire;$(BCB)\include;$(BCB)\include\vcl;C:\dlls;C:\fesys;C:\EControl_Designer\Sources
+Item1=C:\Program Files (x86)\Borland\CBuilder6\LabPacks;C:\Program Files (x86)\Borland\CBuilder6\OpenWire;$(BCB)\include;$(BCB)\include\vcl;C:\dlls;C:\fesys;C:\EControl_Designer\Sources
+Item2=C:\Program Files (x86)\Borland\CBuilder6\LabPacks;C:\Program Files (x86)\Borland\CBuilder6\OpenWire;$(BCB)\include;$(BCB)\include\vcl;C:\dlls;C:\fesys
+Item3=C:\Program Files (x86)\Borland\CBuilder6\LabPacks;C:\Program Files (x86)\Borland\CBuilder6\OpenWire;$(BCB)\include;$(BCB)\include\vcl
+Item4=C:\Program Files (x86)\Borland\CBuilder6\LabPacks;C:\Program Files (x86)\Borland\CBuilder6\OpenWire;$(BCB)\include;$(BCB)\include\vcl;C:\Source\explore2fs-1.08beta9.src\source\tntunicode;C:\Components\JVCL347CompleteJCL241-Build4571\jvcl\resources
+Item5=C:\Program Files (x86)\Borland\CBuilder6\LabPacks;C:\Program Files (x86)\Borland\CBuilder6\OpenWire;$(BCB)\include;$(BCB)\include\vcl;C:\Source\explore2fs-1.08beta9.src\source\tntunicode
+Item6=C:\Program Files (x86)\Borland\CBuilder6\LabPacks;$(BCB)\include;$(BCB)\include\vcl
+
+[HistoryLists\hlLibraryPath]
+Count=9
+Item0=C:\Program Files (x86)\Borland\CBuilder6\Projects;W:\tests\testcolor001;C:\sadsf950;$(BCB)\Projects\Lib;C:\Program Files (x86)\Borland\CBuilder6\LabPacks;C:\Program Files (x86)\Borland\CBuilder6\OpenWire;$(BCB)\lib\obj;$(BCB)\lib;C:\fesys;C:\Components\FastScript\LibBCB6;C:\EControl_Designer\Sources
+Item1=$(BCB)\Projects\Lib;C:\Program Files (x86)\Borland\CBuilder6\LabPacks;C:\Program Files (x86)\Borland\CBuilder6\OpenWire;$(BCB)\lib\obj;$(BCB)\lib;C:\fesys;C:\Components\FastScript\LibBCB6;C:\EControl_Designer\Sources
+Item2=$(BCB)\Projects\Lib;C:\Program Files (x86)\Borland\CBuilder6\LabPacks;C:\Program Files (x86)\Borland\CBuilder6\OpenWire;$(BCB)\lib\obj;$(BCB)\lib;C:\fesys;C:\Components\FastScript\LibBCB6
+Item3=$(BCB)\Projects\Lib;C:\Program Files (x86)\Borland\CBuilder6\LabPacks;C:\Program Files (x86)\Borland\CBuilder6\OpenWire;$(BCB)\lib\obj;$(BCB)\lib;C:\fesys
+Item4=$(BCB)\Projects\Lib;C:\Program Files (x86)\Borland\CBuilder6\LabPacks;C:\Program Files (x86)\Borland\CBuilder6\OpenWire;$(BCB)\lib\obj;$(BCB)\lib
+Item5=$(BCB)\Projects\Lib;C:\Program Files (x86)\Borland\CBuilder6\LabPacks;C:\Program Files (x86)\Borland\CBuilder6\OpenWire;$(BCB)\lib\obj;$(BCB)\lib;C:\Source\explore2fs-1.08beta9.src\source\tntunicode;C:\Components\JVCL347CompleteJCL241-Build4571\jvcl\resources
+Item6=$(BCB)\Projects\Lib;C:\Program Files (x86)\Borland\CBuilder6\LabPacks;C:\Program Files (x86)\Borland\CBuilder6\OpenWire;$(BCB)\lib\obj;$(BCB)\lib;C:\Source\explore2fs-1.08beta9.src\source\tntunicode
+Item7=$(BCB)\Projects\Lib;C:\Program Files (x86)\Borland\CBuilder6\LabPacks;C:\Program Files (x86)\Borland\CBuilder6\OpenWire;$(BCB)\lib\obj;$(BCB)\lib;C:\Source\explore2fs-1.08beta9.src\source\tntunicode;C:\Source\explore2fs-1.08beta9.src\source\tntunicode\BCB6
+Item8=$(BCB)\Projects\Lib;C:\Program Files (x86)\Borland\CBuilder6\LabPacks;$(BCB)\lib\obj;$(BCB)\lib
+
+[HistoryLists\hlDebugSourcePath]
+Count=3
+Item0=$(BCB)\source\vcl;C:\Components\FastScript\LibBCB6;C:\EControl_Designer\Sources
+Item1=$(BCB)\source\vcl;C:\Components\FastScript\LibBCB6
+Item2=$(BCB)\source\vcl
+
+[HistoryLists\hlConditionals]
+Count=1
+Item0=_DEBUG
+
+[Debugging]
+DebugSourceDirs=$(BCB)\source\vcl;C:\Components\FastScript\LibBCB6;C:\EControl_Designer\Sources
+
+[Parameters]
+RunParams=
+Launcher=
+UseLauncher=0
+DebugCWD=
+HostApplication=
+RemoteHost=
+RemotePath=
+RemoteLauncher=
+RemoteCWD=
+RemoteDebug=0
+
+[Compiler]
+ShowInfoMsgs=0
+LinkDebugVcl=0
+LinkCGLIB=0
+
+[CORBA]
+AddServerUnit=1
+AddClientUnit=1
+PrecompiledHeaders=1
+  </IDEOPTIONS>
+</PROJECT>
